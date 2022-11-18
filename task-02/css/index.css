@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(240, 123, 168);
+    font-size: 22px;
+}
+.contenedorGaleria{
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(154, 12, 83);
+    background-color: rgb(243, 196, 240);
+}
+.contenedorGaleria img{
+    width: 100%;
+
+}
+.contenedorMiniaturas img{
+    background-color: rgb(235, 129, 175);
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.contenedorMiniaturas img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
